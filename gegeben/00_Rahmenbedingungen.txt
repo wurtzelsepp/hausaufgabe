@@ -1,0 +1,24 @@
+﻿Lege einen Account auf Github an, falls Du noch keinen hast.
+Alles was Du für die Probeaufgabe an Code/Dateien produzierst sollte
+dort landen, auch Zwischenschritte sind gewünscht.
+
+Die Aufgabe besteht darin, einen Entwurf für eine Webseite mit modernen
+Mitteln umzusetzen.
+
+Ausgangsbasis ist der Entwurf als Grafik, sowie ergänzende Hinweise zum
+Funktionsumfang der Webseite. Ziel ist es, eine moderne Lösung in HTML,
+CSS und JavaScript zu haben. Frameworks wie Twitter Bootstrap und jQuery
+sind generell auch nach eigenem Ermessen einzusetzen, zusätzlich zu dem,
+was in den Hinweisen explizit genannt ist.
+
+Du hast für die Aufgabe eine Woche Zeit, Abgabetermin steht im Text
+der Mail. Falls Du den Termin nicht halten kannst, teile uns mit, bis
+wann es Dir möglich ist. Falls ansonsten irgendwas unklar ist, oder
+Informationen fehlen, kannst Du Dich gerne mit Rückfragen melden.
+
+Das Beispiel ist natürlich praxisnah, das liegt aber nicht daran, dass
+wir das verwenden wollen, sondern dass die Aufgabe zu stellen für uns
+so einfacher ist (und wir schon genau wissen, wie idealerweise für
+uns das Ergebnis aussieht).
+
+

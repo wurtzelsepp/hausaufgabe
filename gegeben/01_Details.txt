@@ -1,0 +1,29 @@
+﻿Details zum Entwurf
+
+* Optisch bietet 02_Entwurf.png einen Überblick über die gesamte Seite
+* Die Texte sind zur weiteren Verarbeitung in der Datei 03_Texte_fuer_die_Seite.txt gespeichert
+* Anders als in der Vorlage hätten wir gerne 04_titelmotiv.jpg als Titelmotiv.
+* Farben: #ec7404 als Signalfarbe für Hyperlinks
+* Schriftfarbe: weiß: #ffffff, grau: #2b2b2b
+* Schriftfamilie: Ubuntu (bitte als Webfont einbinden, gerne auch lokal)
+  https://www.google.com/fonts#UsePlace:use/Collection:Ubuntu
+* Schriftgrößen: nicht vorgegeben, sollten einfach im Verhältnis dem Entwurf entsprechen
+ 
+
+* Alle Texte können/dürfen statisch umgesetzt werden.
+* Die Seite soll "Responsive" sein.
+    Breakpoints können individuell gewählt werden.
+    Mindestens zwei sind zu unterstützen: Desktop (Vollbild) und Mobile (Portrait)
+    In der Mobilansicht sollen die Elemente einfach untereinander angeordnet sein
+* Der Text soll innerhalb der Container fluide sein
+* Die Container sollen einen ansprechenden Margin haben (smile)
+* Klick auf den Bereich "Schnellkontakt" springt zum Formular
+* Das Titelbild soll im Format 16:9 immer die volle Displaybreite einnehmen
+* In der Höhe soll das Titelbild dann so skalieren, dass es nicht verzerrt
+* Formular (wenn möglich, bitte über PHP validieren/versenden): Am Ende der Seite ist ein Formular einzubauen, das folgende Elemente abfragt:
+    Vorname und Name
+    E-Mailadresse
+    Betreff
+    Nachrichtentext
+* Per "Absenden"-Button sollen die Inhalte an die im Formular angegebene Adresse versandt werden (als Text innerhalb der Mail).
+
