@@ -1,0 +1,92 @@
+body {
+
+	font-family: 'Ubuntu';
+}
+.top {
+	background-color: #2b2b2b;
+	z-index: -11;
+	color: #ffffff;
+}
+
+.teaser {
+
+	z-index: -10;
+	height: 0;
+	padding-bottom: 50%;
+}
+
+div.teacont {
+	position: relative;
+	bottom: 150px;
+	left: 20px;
+	color: #ffffff;
+	z-index: 2;
+}
+
+.hintergrund {
+	background: url("../img/04_titelmotiv.jpg") no-repeat;
+	background-size: 100% auto;
+	z-index: 1;
+	padding-top: 50%;
+	position: relative;
+	height: auto;
+}
+
+a.centerlink:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.centerlink:visited {
+	color: #ffffff;
+}
+a.centerlink:active {
+	color: #ffffff;
+}
+a.centerlink:hover {
+	color: #aaa;
+}
+
+.center {
+	position: relative;
+	background-color: #2b2b2b;
+	color: #ffffff;
+	padding-bottom: 5px;
+	margin-left: 35%;
+	margin-right: auto;
+}
+
+.cont {
+
+	float: left;margin 20px;
+	width: 100%;
+	height: 100%;
+}
+
+.info {
+	text-align: right;
+	position: absolute;
+	left: 20px;
+	margin: 20px;
+	width: 150px
+}
+.artikel {
+	margin: 20px;
+	margin-left: 200px;
+	float: left;
+}
+
+/* fluid zeug wohl am ende damits alles überschreibt  */
+@media (max-width: 580px) {
+	h1 {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 980px) {
+	h1 {
+		font-size: 52px;
+	}
+	div.teacont {
+		bottom: 250px
+	}
+}
