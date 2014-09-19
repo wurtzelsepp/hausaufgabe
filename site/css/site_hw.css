@@ -1,9 +1,14 @@
+h1,h2,h3 {
+padding: 0;
+margin: 0;}
+
+
 body {
 
 	font-family: 'Ubuntu';
 }
 .top {
-	background-color: #2b2b2b;
+	background-color: #343434;
 	z-index: -11;
 	color: #ffffff;
 }
@@ -48,11 +53,13 @@ a.centerlink:hover {
 
 .center {
 	position: relative;
-	background-color: #2b2b2b;
+	background-color: #343434;
 	color: #ffffff;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 	margin-left: 35%;
 	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 .cont {
@@ -63,6 +70,8 @@ a.centerlink:hover {
 }
 
 .info {
+	
+	
 	text-align: right;
 	position: absolute;
 	left: 20px;
@@ -73,6 +82,62 @@ a.centerlink:hover {
 	margin: 20px;
 	margin-left: 200px;
 	float: left;
+}
+
+#kontakt{
+	
+	
+	
+    
+	clear: both; 
+	background-color: #343434;
+	color: #ffffff;
+}
+
+#meldungen{
+	
+	color: #ffffff;
+	background-color: #343434;
+	text-align: center;
+	z-index: 100;
+	
+	padding: 20px;
+	
+}
+
+
+#kontakt-formul{
+	margin-left:5%;
+	margin-right:auto;
+	background-color: #343434;
+	padding:10px;
+	
+	border-collapse: collapse;
+}
+
+.kontakt-form-inp{
+	padding:3px;
+	padding-left:6px;
+	
+	color:  #969696;
+	font-family: 'Ubuntu';
+	margin:4px;
+	background-color: #2b2b2b;
+	border: none;
+	width: 90%;
+}
+
+.kontakt-form-but{
+	color:  #ffffff;
+	font-family: 'Ubuntu';
+	margin:4px;
+	padding:3px;
+	font-weight:bold;
+	background-color: #EC7404;
+	border: none;
+	width: 90%;
+	
+	
 }
 
 /* fluid zeug wohl am ende damits alles überschreibt  */
