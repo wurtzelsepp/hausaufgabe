@@ -43,10 +43,10 @@
 		</div>
 		<div class="center">
 
-			<h2>
+			<h2 class="top">
 				MAYFLOWER
 			</h2>
-			<h2>
+			<h2 class="top">
 				<a class="centerlink"  href="#kontakt">SCHNELLKONTAKT</a> JETZT INFORMIEREN
 			</h2>
 
@@ -70,7 +70,7 @@
 				<h3>WENN ES DARAUF ANKOMMT</h3>
 
 				<p>
-				<b>AGILES COACHING &deg; WORKSHOPS &deg; SCHULUNGEN &deg; TRAININGS &deg; CODING DOJOS</b>
+				<b class="artikelb">AGILES COACHING &deg; WORKSHOPS &deg; SCHULUNGEN &deg; TRAININGS &deg; CODING DOJOS</b>
 					<br />
 					FÜR <b>BUSINESS &amp; DEVELOPMENT</b><br /><br />
 
@@ -89,7 +89,7 @@
 		<div class="cont">
 			
 			<div class="info">
-				<h1>100</h1>
+				<h1 class="infoh">100</h1>
 				<h3>PROZENT PERFORMANE</h3>
 				<p>
 					<a href="#ueberblick">ÜBERBLICK></a>
@@ -121,6 +121,9 @@
 			 		
 			 		
 			 	}else{
+			 		echo"<style type=\"text/css\" media=\"screen\">
+						 padding: 20px;
+					 </style>";
 			 		if($_GET["sent"]==1){
 			 			echo "<h3>Ihr Formular wurde erfolgreich verschickt</h3>";
 			 			
@@ -140,7 +143,7 @@
 			 ?>
 			
 		</div>
-		  <form id="kontakt-formul" action="form-submit.php" method="post">
+		  <form class="kontakt-formul" action="form-submit.php" method="post">
   			<input class="kontakt-form-inp" type="text" name="fname_lname" placeholder="VORNAME UND NAME"><br>
   			<input class="kontakt-form-inp" type="text" name="mail" placeholder="E-MAILADRESSE"><br>
   			<input class="kontakt-form-inp" type="text" name="subject" placeholder="BETREFF"><br>
