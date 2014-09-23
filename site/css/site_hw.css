@@ -169,6 +169,11 @@ a.centerlink:hover {
 		font-size: 12px;
 	}
 
+	div.teacont {
+		font-size: 17px;
+	}
+
+
 	.info {
 		width: 100%;
 		position: relative;
@@ -215,6 +220,7 @@ a.centerlink:hover {
 		font-size: 15px;
 	}
 	div.teacont {
+		font-size: 45px;
 		bottom: 200px;
 	}
 }
@@ -251,6 +257,8 @@ a.centerlink:hover {
 		font-size: 20px;
 	}
 	div.teacont {
+		font-size: 62px;
+		
 		bottom: 250px;
 	}
 	div.cont {
