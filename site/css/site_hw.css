@@ -1,7 +1,7 @@
-h1,h2,h3 {
-padding: 0;
-margin: 0;}
-
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+}
 
 body {
 
@@ -37,10 +37,9 @@ div.teacont {
 	height: auto;
 }
 
-a:link{
+a:link {
 	color: #EC7404;
 	text-decoration: none;
-	
 }
 
 a.centerlink:link {
@@ -71,25 +70,17 @@ a.centerlink:hover {
 .cont {
 
 	float: left;
-	
-	
 	width: 100%;
 	height: 100%;
 }
 
-
-
-
 .info {
-	
-	
+
 	text-align: right;
 	position: absolute;
 	left: 20px;
 	margin: 20px;
 	width: 150px
-	
-	
 }
 .artikel {
 	margin: 20px;
@@ -98,179 +89,176 @@ a.centerlink:hover {
 	float: left;
 }
 
-#kontakt{
-	
-	
-	
-    
-	clear: both; 
+#kontakt {
+
+	clear: both;
 	background-color: #343434;
 	color: #ffffff;
 }
 
-#meldungen{
-	
+#meldungen {
+
 	color: #ffffff;
 	background-color: #343434;
 	text-align: center;
 	z-index: 100;
-	
-	
-	
 }
 
-
-.kontakt-formul{
-	margin-left:5%;
-	margin-right:auto;
+.kontakt-formul {
+	margin-left: 5%;
+	margin-right: auto;
 	background-color: #343434;
-	padding:10px;
-	
+	padding: 10px;
 	border-collapse: collapse;
 }
 
-.kontakt-form-inp{
-	padding:3px;
-	padding-left:6px;
-	font-size:inherit;
-	color:  #969696;
+.kontakt-form-inp {
+	padding: 3px;
+	padding-left: 6px;
+	font-size: inherit;
+	color: #969696;
 	font-family: 'Ubuntu';
-	margin:4px;
+	margin: 4px;
 	background-color: #2b2b2b;
 	border: none;
 	width: 90%;
 }
 
-.kontakt-form-but{
-	color:  #ffffff;
+.kontakt-form-but {
+	color: #ffffff;
 	font-family: 'Ubuntu';
-	margin:4px;
-	padding:3px;
-	font-size:inherit;
-	font-weight:bold;
+	margin: 4px;
+	padding: 3px;
+	font-size: inherit;
+	font-weight: bold;
 	background-color: #EC7404;
 	border: none;
 	width: 90%;
-	
-	
 }
 
 /* fluid zeug wohl am ende damits alles überschreibt  */
 @media (max-width: 580px) {
-	
-	
-	*{font-size:8px;
-	}	
-	a:link{
+
+	* {
 		font-size: 8px;
-		
+	}
+	a:link {
+		font-size: 8px;
 	}
 	h1 {
 		font-size: 20px;
 		font-weight: 900;
 	}
-	a.centerlink{
-		font-size: 14px;
-		font-weight:bolder;
-	}
-	h2{
+	a.centerlink {
 		font-size: 14px;
 		font-weight: bolder;
 	}
-	h2.top{
+	h2 {
+		font-size: 14px;
+		font-weight: bolder;
+	}
+	h2.top {
 		font-weight: normal;
 	}
-	
-	h3{
+
+	h3 {
 		font-size: 12px;
 		font-weight: bolder;
 	}
-	.kontakt-formul{
+	.kontakt-formul {
 		font-size: 12px;
-		
 	}
-	
+
+	.info {
+		width: 100%;
+		position: relative;
+		text-align: left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.artikel {
+		width: 100%;
+		margin-left: 40px;
+		margin-top: 5px;
+	}
+
 }
 
 @media (min-width: 580px) {
-	*{font-size: 12px;
-	}	
-	a:link{
+	* {
 		font-size: 12px;
-		
+	}
+	a:link {
+		font-size: 12px;
 	}
 	h1 {
 		font-size: 50px;
 		font-weight: 900;
 	}
-	a.centerlink{
-		font-size: 25px;
-		font-weight:bolder;
-	}
-	h2{
+	a.centerlink {
 		font-size: 25px;
 		font-weight: bolder;
 	}
-	h2.top{
+	h2 {
+		font-size: 25px;
+		font-weight: bolder;
+	}
+	h2.top {
 		font-weight: normal;
 	}
-	
-	h3{
+
+	h3 {
 		font-size: 15px;
 		font-weight: bolder;
 	}
-	.kontakt-formul{
+	.kontakt-formul {
 		font-size: 15px;
-		
 	}
 	div.teacont {
 		bottom: 200px;
 	}
 }
 
-
 /* vollbild breakpoint*/
 @media (min-width: 1100px) {
-	*{font-size: 15px;
-	}	
-	a:link{
+	* {
 		font-size: 15px;
-		
+	}
+	a:link {
+		font-size: 15px;
 	}
 	h1 {
 		font-size: 70px;
 		font-weight: 900;
 	}
-	a.centerlink{
-		font-size: 30px;
-		font-weight:bolder;
-	}
-	h2{
+	a.centerlink {
 		font-size: 30px;
 		font-weight: bolder;
 	}
-	h2.top{
+	h2 {
+		font-size: 30px;
+		font-weight: bolder;
+	}
+	h2.top {
 		font-weight: normal;
 	}
-	
-	h3{
+
+	h3 {
 		font-size: 20px;
 		font-weight: bolder;
 	}
-	.kontakt-formul{
+	.kontakt-formul {
 		font-size: 20px;
-		
 	}
 	div.teacont {
 		bottom: 250px;
 	}
-	div.cont{
-		
-		width: 50%;
-		
+	div.cont {
+
+		width: 45%;
 	}
 	.info {
-		
+
 		position: relative;
 		left: 7%;
 		margin: 20px;
@@ -278,12 +266,24 @@ a.centerlink:hover {
 		float: left;
 	}
 	.artikel {
-		
+
 		margin-left: 50px;
 		padding-right: 5%;
 		float: left;
-		width: 45%;
+		width: 40%;
 		position: relative;
-	}	
-		
+	}
+
+}
+
+@media (min-width: 1400px) {
+	div.cont {
+
+		width: 50%;
+	}
+	.artikel {
+		margin-left: 65px;
+		width: 45%;
+	}
+
 }
